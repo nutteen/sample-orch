@@ -33,6 +33,10 @@ github.com/mattn/go-runewidth v0.0.14 h1:+xnbZSEeDbOIg5/mE6JF0w6n9duR1l3/WmbinWV
 github.com/mattn/go-runewidth v0.0.14/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
 github.com/nutteen/png-core v0.0.0-20221103074849-f80feff8eae9 h1:OYq6iDYXwI8jh/myE1YivqRoMlOvieJf6JFHcouh9GM=
 github.com/nutteen/png-core v0.0.0-20221103074849-f80feff8eae9/go.mod h1:zFBRFO1JWjJoO0Ls4T0fsSzgecS6NuwG0gWyBurzp6M=
+github.com/nutteen/png-core v0.0.0-20221103120956-9db7cefa4496 h1:PVwcoNtos8HG9VNsQqO+OT3G6LsR2/EdmQOEWNnzOsg=
+github.com/nutteen/png-core v0.0.0-20221103120956-9db7cefa4496/go.mod h1:zFBRFO1JWjJoO0Ls4T0fsSzgecS6NuwG0gWyBurzp6M=
+github.com/nutteen/png-core v0.0.0-20221103125908-903c53013040 h1:o+Iz+oVKZMDmMgljOyZJFJbDz4UwloXI7/MGTb4FzO8=
+github.com/nutteen/png-core v0.0.0-20221103125908-903c53013040/go.mod h1:zFBRFO1JWjJoO0Ls4T0fsSzgecS6NuwG0gWyBurzp6M=
 github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e/go.mod h1:pJLUxLENpZxwdsKMEsNbx1VGcRFpLqf3715MtcvvzbA=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

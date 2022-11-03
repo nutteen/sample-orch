@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/gofiber/fiber/v2 v2.39.0
-	github.com/nutteen/png-core v0.0.0-20221103074849-f80feff8eae9
+	github.com/nutteen/png-core v0.0.0-20221103125908-903c53013040
 )
 
 require (
