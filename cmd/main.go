@@ -14,7 +14,7 @@ import (
 func main() {
 
 	logger.InitializeLogger(logger.LoggerConfig{
-		IsProductionMode: false,
+		IsProductionMode: true,
 	})
 
 	validator.InitializeValidator()
