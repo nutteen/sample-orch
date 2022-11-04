@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: sample-orch
+  namespace: openapi
   labels:
     app: sample-orch
     service: sample-orch
@@ -20,6 +21,7 @@ metadata:
     app: sample-orch
     service: sample-orch
   name: sample-orch
+  namespace: openapi
 spec:
   strategy:
     rollingUpdate:
@@ -39,6 +41,11 @@ spec:
       - image: asia.gcr.io/poc-innovation-iot/open-api/sample-orch:1.0
         imagePullPolicy: Always
         name: sample-orch
+        env:
+        - name: DB_URL
+          value: "postgres://postgres:example@localhost:5432/invite"
+        - name: KAFKA_BROKER
+          value: "kafka.kafka.svc.cluster.local:9092"
         ports:
         - containerPort: 3000
           protocol: TCP
