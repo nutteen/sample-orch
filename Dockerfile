@@ -12,6 +12,12 @@ ADD pkg ./pkg
 WORKDIR /app/cmd
 RUN go build -o /sample-orch
 
+#Set default timezone
+RUN apk add --no-cache tzdata
+ENV TZ Asia/Bangkok
+RUN ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime
+RUN echo "Asia/Bangkok" > /etc/timezone
+
 EXPOSE 3000
 
 CMD [ "/sample-orch" ]
