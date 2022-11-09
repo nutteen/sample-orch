@@ -1,7 +1,8 @@
 FROM golang:1.16-alpine
 
 WORKDIR /app
-
+ENV GONOSUMDB gitdev.inno.ktb/,gitdev.devops.krungthai.com/
+ENV GOPROXY https://artifact.devops.krungthai.com/repository/goproxy,https://proxy.golang.or
 COPY go.mod ./
 COPY go.sum ./
 RUN go mod download

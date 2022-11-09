@@ -3,8 +3,8 @@ module github.com/nutteen/sample-orch
 go 1.19
 
 require (
+	gitdev.devops.krungthai.com/open-api/backend/common/core-lib v0.0.1
 	github.com/gofiber/fiber/v2 v2.39.0
-	github.com/nutteen/png-core v0.0.0-20221103125908-903c53013040
 )
 
 require (
@@ -21,10 +21,12 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.40.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/atomic v1.9.0 // indirect
+	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
+	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
+	golang.org/x/text v0.4.0 // indirect
 )
+
+replace gitdev.devops.krungthai.com/open-api/backend/common/core-lib => gitdev.devops.krungthai.com/open-api/backend/common/core-lib.git v0.0.1

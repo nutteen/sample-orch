@@ -1,15 +1,14 @@
 package main
 
 import (
+	"gitdev.devops.krungthai.com/open-api/backend/common/core-lib/core/logger"
+	middlewarelogger "gitdev.devops.krungthai.com/open-api/backend/common/core-lib/core/middlewares/logger"
+	"gitdev.devops.krungthai.com/open-api/backend/common/core-lib/core/middlewares/usercontext"
+	"gitdev.devops.krungthai.com/open-api/backend/common/core-lib/core/validator"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/requestid"
-	"github.com/nutteen/png-core/core/logger"
-	middlewarelogger "github.com/nutteen/png-core/core/middlewares/logger"
-	"github.com/nutteen/png-core/core/middlewares/usercontext"
-	"github.com/nutteen/png-core/core/validator"
 	"github.com/nutteen/sample-orch/pkg/router"
 )
-
 
 func main() {
 
